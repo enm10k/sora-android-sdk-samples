@@ -2,7 +2,7 @@ apply plugin: "com.github.ben-manes.versions"
 
 buildscript {
     ext.kotlin_version = '1.4.21'
-    ext.sora_android_sdk_version = '2020.3'
+    ext.sora_android_sdk_version = '2021.4'
 
     repositories {
         jcenter()
@@ -17,7 +17,7 @@ buildscript {
     }
 
     // アプリから参照する設定項目
-    ext.signaling_endpoint = "wss://sora.example.com/signaling"
+    ext.signaling_endpoint = "wss://sora.enm10k.com/signaling"
     ext.channel_id         = "sora"
 
     // デバッグ用: true に設定すると wss ではなく ws で接続できる

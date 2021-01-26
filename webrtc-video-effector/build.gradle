@@ -51,7 +51,7 @@ dependencies {
         api project(':sora-android-sdk')
     } else {
         // external dependency
-        api("com.github.shiguredo:sora-android-sdk:${sora_android_sdk_version}") {
+        api("com.github.enm10k:sora-android-sdk:${sora_android_sdk_version}") {
             transitive = true
         }
     }
